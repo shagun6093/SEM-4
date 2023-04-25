@@ -1,0 +1,10 @@
+import pandas as pd
+import numpy as np
+exam_data=({'name':['shagun','medhaj','anehri','akshay','deep','shashank','mamta'],'marrks':[25,np.nan,98,85,np.nan,9,6]})
+labels=['a','b','c','d','e','f','g']
+df=pd.DataFrame(exam_data,index=labels)
+print("original dataframe")
+print(df)
+
+print("\nupdated dataframe")
+print(df.interpolate())
