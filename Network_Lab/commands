@@ -8,3 +8,44 @@ nslookup -q=MX google.com
 
 
 
+netstat:
+
+netstat
+netstat -n
+netstat -f
+netstat -a
+netstat -e
+netstat -n 5
+
+
+dig:
+
+dig google.com -t ns
+dig -h
+dig google.com
+dig google.com +trace
+dig google.com MX
+dig google.com any
+dig google.com +short
+
+arp:
+arp -a
+arp -g
+arp -d 192.168.56.245
+arp -n
+arp /s 10.0.80 00-AA-00-4F-2A-9C
+
+
+
+mtr:(unix)
+
+mtr --csv google.com
+mtr --xml google.com
+mtr --json google.com
+mtr -c 10 google.com
+cat pings .txt
+mtr -F pings.txt
+
+
+
+
