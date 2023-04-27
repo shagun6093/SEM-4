@@ -46,6 +46,11 @@ mtr -c 10 google.com
 cat pings .txt
 mtr -F pings.txt
 
+traceroute:(unix)
+
+traceroute google.com
+traceroute -n google.com
+traceroute -q 1 google.com
 
 
 
