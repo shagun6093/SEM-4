@@ -1,0 +1,10 @@
+nslookup:
+
+nslookup
+nslookup google.com
+nslookup -type=ns google.com
+nslookup -type=soa google.com
+nslookup -q=MX google.com
+
+
+
