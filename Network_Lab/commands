@@ -1,3 +1,17 @@
+ifconfig:
+
+ifconfig
+ifconfig -v
+ifconfig -s
+ifconfig -a
+
+
+
+
+
+
+
+
 nslookup:
 
 nslookup
@@ -52,5 +66,12 @@ traceroute google.com
 traceroute -n google.com
 traceroute -q 1 google.com
 
+wget:(unix)
+
+wget (url)
+wget -b (url)
+wget -c (url)
+wget -m (url)
+wget -q (url)
 
 
